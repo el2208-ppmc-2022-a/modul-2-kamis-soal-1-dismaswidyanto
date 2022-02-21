@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "1",
+      "setup": "make soal-01",
+      "run": "./soal-01",
+      "input": "kelas03",
+      "output": "Error : file invalid",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "2",
+      "setup": "make soal-01",
+      "run": "./soal-01",
+      "input": "kelas1.txt\r\n1",
+      "output": "Siswa 1\r\nNama siswa : Yuni\r\nBpm siswa : 36",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "3",
+      "setup": "make soal-01",
+      "run": "./soal-01",
+      "input": "kelas2.txt\r\n2\r\nbudi",
+      "output": "Siswa 1\r\nNama siswa : Budi\r\nBpm siswa : 80\r\nSiswa 2\r\nNama siswa : Chloe Budi\r\nBpm siswa : 75",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "4",
+      "setup": "make soal-01",
+      "run": "./soal-01",
+      "input": "kelas1.txt\r\n2\r\nnuni",
+      "output": "Hasil pencarian tidak ditemukan :(",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "5",
+      "setup": "make soal-01",
+      "run": "./soal-01",
+      "input": "kelas1.txt\r\n4",
+      "output": "Error : Nomor menu invalid",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "6",
+      "setup": "make soal-01",
+      "run": "./soal-01",
+      "input": "kelas1.txt\r\n3\r\n50\r\n20",
+      "output": "Siswa 1\r\nNama siswa : Cucu Budi\r\nBpm siswa : 44\r\nSiswa 2\r\nNama siswa : Kags Anto\r\nBpm siswa : 49\r\nSiswa 3\r\nNama siswa : Yuni\r\nBpm siswa : 36",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "7",
+      "setup": "make soal-01",
+      "run": "./soal-01",
+      "input": "kelas1.txt\r\n3\r\n160\r\n150",
+      "output": "Hasil pencarian tidak ditemukan :(",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "8",
+      "setup": "make soal-01",
+      "run": "./soal-01",
+      "input": "kelas2.txt\r\n2\r\ndinda",
+      "output": "Hasil pencarian tidak ditemukan :(",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "9",
+      "setup": "make soal-01",
+      "run": "./soal-01",
+      "input": "kelas2.txt\r\n3\r\n110\r\n95",
+      "output": "Siswa 1 \r\nNama siswa : Oxana Cantika\r\nBpm siswa : 100\r\nSiswa 2\r\nNama siswa : Zayn Malik\r\nBpm siswa : 110",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "10",
+      "setup": "make soal-01",
+      "run": "./soal-01",
+      "input": "kelas2.txt\r\n1",
+      "output": "Siswa 1\r\nNama siswa : Aaron Sumadi\r\nBpm siswa : 40",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    }
+  ]
+}
