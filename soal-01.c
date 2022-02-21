@@ -11,6 +11,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
+#include <limits.h>
 
 int main(){
 	char namafile[10];
@@ -65,7 +66,7 @@ int main(){
 		}
 		else if (menu==2){
 			strcpy(temp_siswa, siswa);
-			if(strstr(strlwr(siswa), strlwr(namasiswa))){
+			if(strstr(siswa, namasiswa)){
 				printf("Siswa %d\n", found+1);
 				printf("Nama siswa : %s\n", temp_siswa);
 				printf("Bpm siswa : %s\n", bpm);
