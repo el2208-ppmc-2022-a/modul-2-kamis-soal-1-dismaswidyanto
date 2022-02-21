@@ -31,7 +31,6 @@ int main(){
 
 	if (filekelas == NULL){ //jika file tidak ditemukan dalam folder yang sama dengan source code
 		printf("Error : file invalid\n");
-		fclose(filekelas);
 		return 0;
 	}
 
