@@ -24,7 +24,7 @@
       "name": "3",
       "setup": "make soal-01",
       "run": "./soal-01",
-      "input": "kelas2.txt\r\n2\r\nbudi",
+      "input": "kelas2.txt\r\n2\r\nBudi",
       "output": "Siswa 1\r\nNama siswa : Budi\r\nBpm siswa : 80\r\nSiswa 2\r\nNama siswa : Chloe Budi\r\nBpm siswa : 75",
       "comparison": "included",
       "timeout": 1,
